@@ -1,4 +1,4 @@
-/* Fondo general 
+/* Fondo general */
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Header con nav 
+/* Header con nav */
 header.encabezado {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem 0;
@@ -21,7 +21,7 @@ header.encabezado {
   z-index: 1000;
 }
 
-/* Estilo de los links del nav 
+/* Estilo de los links del nav */
 .nav-link {
   color: white !important;
   font-weight: 600;
@@ -32,9 +32,9 @@ header.encabezado {
   color: #ffc107 !important;
 }
 
-/* Contenido principal 
+/* Contenido principal */
 main.contenedor {
- /* padding: 2rem 1rem;
+ /* padding: 2rem 1rem;*/
   max-width: 12000px;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -44,7 +44,7 @@ p{
   color: black;
  }
 
-/* Títulos 
+/* Títulos */
 .header-text {
   font-size: 4rem;
   color: rgb(130, 35, 35);
@@ -60,13 +60,13 @@ p{
 }
 
  
-/* /////////////////NO BORRAR////////
+/* /////////////////NO BORRAR////////*/
 .hero-title {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh; /* O ajustá según lo que necesites 
+  height: 100vh; /* O ajustá según lo que necesites */
   background-color: rgba(11, 11, 11, 0.6 );
   color: #ffffff;
   padding: 0 20px;
@@ -93,7 +93,7 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
-/*ACA ARRANCA LOS ESTILOS DEL CSS PARA INDEX
+/*ACA ARRANCA LOS ESTILOS DEL CSS PARA INDEX*/
 
 
 .bloque-info {
@@ -143,7 +143,7 @@ p{
   color: white;
 }
 
-/* Responsive 
+/* Responsive */
 @media (max-width: 768px) {
   .bloque-info .contenido {
     flex-direction: column;
@@ -157,9 +157,9 @@ p{
 
 
 
-/* DISEÑO FOOTER 
+/* DISEÑO FOOTER */
 .footer-principal {
-  background-color: rgba(0, 0, 0, 0.6); /* mismo color que el nav 
+  background-color: rgba(0, 0, 0, 0.6); /* mismo color que el nav */
   width: 100%;
   padding: 1.5rem 1rem;
   color: white;
@@ -183,13 +183,13 @@ p{
 .separador hr {
   border: 0;
   height: 2px;
-  background: #ffffff80; /* blanco con transparencia 
+  background: #ffffff80; /* blanco con transparencia */
   border-radius: 5px;
 }
 
-/*PAGINA GALERIA 
+/*PAGINA GALERIA */
 .galeriadefotos {
-  background-color: rgba(0, 0, 0, 0.6); /* mismo color que el nav 
+  background-color: rgba(0, 0, 0, 0.6); /* mismo color que el nav */
   margin: 0;
   padding: 2rem 1rem;
 }
@@ -205,7 +205,7 @@ p{
 }
 
 
-/* PAGINA LUGARES IMPERDIBLES 
+/* PAGINA LUGARES IMPERDIBLES */
 .fondo{ 
   margin: 0;
   padding: 0;
@@ -249,7 +249,7 @@ p{
   font-size: 1.05rem;
 }
 
-/* Imagen redondeada con sombra como en la foto 
+/* Imagen redondeada con sombra como en la foto */
 .lugar img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -257,7 +257,7 @@ p{
   object-fit: cover;
 }
 
-/* Alternancia de columnas para imagen a la izquierda o derecha 
+/* Alternancia de columnas para imagen a la izquierda o derecha */
 .lugar .row {
   align-items: center;
 }
@@ -268,7 +268,7 @@ p{
   font-weight: 600;
   font-size: 2.5rem;
   color: rgb(255, 255, 255);
-  background: rgba(44, 62, 80, 0.6); /* azul oscuro translúcido 
+  background: rgba(44, 62, 80, 0.6); /* azul oscuro translúcido */
   padding: 25px 25px;
   border-radius: 12px;
   text-align: center;
@@ -277,9 +277,9 @@ p{
   
 
 
-/* Inversión en .seccion-campanario ya está con flex-md-row-reverse 
+/* Inversión en .seccion-campanario ya está con flex-md-row-reverse */
 
-/* Responsive 
+/* Responsive */
 @media (max-width: 768px) {
   .card-lugar {
     margin-bottom: 1.5rem;
@@ -287,13 +287,13 @@ p{
 }
 
 
-/*temporada
+/*temporada*/
 
 .temporadas {
   background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: center; /* eje horizontal 
-  align-items: center;     /* eje vertical 
+  justify-content: center; /* eje horizontal */
+  align-items: center;     /* eje vertical */
   flex-direction: column;
   text-align: center;
   padding: 1rem ; 
@@ -310,7 +310,7 @@ p{
   
 }
 
-/* Puedes agregar media query para reducir el tamaño si es necesario en pantallas muy chicas 
+/* Puedes agregar media query para reducir el tamaño si es necesario en pantallas muy chicas */
 @media (max-width: 576px) {
   .inviernotemporadas,
   .otonotemporadas,
@@ -325,7 +325,7 @@ p{
   text-justify: inter-word;
   line-height: 1.8;
 }
-  */
+  
 
 
 
